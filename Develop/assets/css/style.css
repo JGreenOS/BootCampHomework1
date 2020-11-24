@@ -1,8 +1,10 @@
-* {
+*
+{ 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 
 body {
     background-color: #d9dcd6;
@@ -52,7 +54,7 @@ p {
 
 .hero {
     height: 800px;
-    width: 100%;
+    /*width: 100%; */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -79,24 +81,24 @@ p {
 }
 .content-img {
     max-height: 200px;
-    display: inline-block;
-    margin: 10px auto;
-    max-width: 150px;
-    }
-
+    display: inline;
+    margin: 10px auto; 
+    /*max-width: auto; */
+}
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    /*float: right; */
-    width: 33%;
+    float: right;
+    width: auto;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    display: inline-block;
+    display: block;
     margin: 10px auto;
-    max-width: 150px; 
+    color: white;
+    /* max-width: 150px; */
 }
 
 .benefit-info {
@@ -127,7 +129,7 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center; */
-}
+
 
 .benefit-lead img {
     display: block;
@@ -163,7 +165,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;*/
-}
+
 
 /*.online-reputation-management {
     margin-bottom: 20px;
@@ -181,7 +183,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff; */
-}
+
 
 
 
