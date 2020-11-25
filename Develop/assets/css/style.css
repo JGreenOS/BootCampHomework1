@@ -12,27 +12,43 @@ p {
     font-size: 16px;
 }
 
+.p2 {
+    font-size: 16px;
+    width: 75%;
+}
+
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.float-left-special{
+    margin-right: 10px;
+    display: inline-block;
+    width: 75%;
+}
+
+.float-right-special{
+    margin-left: 25px;
+    display: inline-block;
+    width: 20%;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
+.left-justify {
     float: right;
-    margin-left: 25px;
+    
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-/*.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -59,12 +75,11 @@ body {
     height: 300px;
     background-color: #0072bb;
     color: #ffffff;
-    width: 75%;
-    display: inline-block;
+    display: inline-flex;
     margin-left: 20px;
 }
 .img{
-        max-height: 200px;
+    max-height: 200px;
 }
 .header h1 {
     display: inline-block;
@@ -90,6 +105,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: none;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
 .hero {
     height: 800px;
     width: 100%;
@@ -97,16 +122,6 @@ body {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #2589bd;
 }
 
 .benefit-lead {
@@ -157,11 +172,7 @@ body {
     max-width: 150px;
 }
 
-
-    
-}
-
-/*.online-reputation-management {
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -169,7 +180,7 @@ body {
     color: #ffffff;
 }
 
-.social-media-marketing {
+/*.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -177,9 +188,10 @@ body {
     color: #ffffff;
 }*/
 
-.search-engine-optimization h2 {
+.special {
     margin-bottom: 20px;
     font-size: 36px;
+    width: 75%;
 }
 
 .online-reputation-management h2 {
