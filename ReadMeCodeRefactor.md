@@ -1,8 +1,11 @@
 This project is a homework assignment with the objective of learning how to do code refactoring from a previously published website.
 
 Description of work:
-1. Using an image of a mock-up web page, assets and source code, I refactored the source to change the css from repetitive elements to a cleaner, more concise css file with semantic html.
+1. Using an image of a mock-up web page, assets and source code, I refactored the source code to change the css from repetitive elements to a cleaner, more concise css file with semantic html.
 2. Evaluate and remediate all accessibility issues, especially with alt-image tags.
+3. 
+
+Final project is located at : https://jgreenos.github.io/BootCampHomework1/index.html
 
 
 
