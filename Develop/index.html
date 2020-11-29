@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<!--Last updated by JGreen on Nov 29 2020 for css code refactor-->
 <html lang="en-us">
-
     <head>
     <meta charset="UTF-8" />
+    <!--normalize CSS to start with clean slate-->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Let HoriSEOn help you!</title>
@@ -10,9 +11,11 @@
 
     <body>
         <header>
+            <!--calls class .seo to emphasize and change color of the logo-->
             <h1>Hori<span class="seo">seo</span>n</h1>
             <nav>
                 <ul>
+                    <!--nav bar has bookmarks to specific sections on page-->
                     <li>
                     <a href="#seo">Search Engine Optimization</a>
                     </li>
@@ -25,13 +28,14 @@
                 </ul>
             </nav>
         </header>
-    <!--Hero image-->
-    <figure></figure>
+    <!--Hero image--No alt tag needed as this is decorative-->
+    <figure> <img alt="">
+    </figure>
 
-    <!--Main Content Left side-->
+    <!--Content Left side-->
     <section>
         <div id="seo">
-            <img src="./assets/images/search-engine-optimization.jpg">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="image of a desk with cup of coffee, laptop, pens and notebook">
             <h2>Search Engine <br>Optimization</h2>
             <article >
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -39,7 +43,7 @@
         </div>
 
         <div id="orm">
-            <img src="./assets/images/online-reputation-management.jpg" class="img-right"> 
+            <img src="./assets/images/online-reputation-management.jpg" alt="image with a picture of a graph labeled 'Reputation' on a laptop screen" class="img-right"> 
             <h2> Online Reputation <br>Management</h2>
             <article>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -47,7 +51,7 @@
         </div>
 
         <div id="smm">
-            <img src="./assets/images/social-media-marketing.jpg">
+            <img src="./assets/images/social-media-marketing.jpg" alt="image of a table with 6 people and common social media icons">
             <h2>Social Media Marketing</h2>
             <article>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -55,32 +59,33 @@
         </div>
     </section>
 
-    <!--Right sidebar-->
+    <!--Content of Right aside, class p2 is called to restyle the text formatting, class benefit-img is called to restyle the image formatting for the decorative images -->
+    <!--Images in this section are decorative only and are not alt-tagged for this reason-->
     <aside class="p2">
         <main>
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" class="benefit-img">
+            <img src="./assets/images/lead-generation.png" alt=""class="benefit-img">
             <p2>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p2>
         </main>
         <main>
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" class="benefit-img">
+            <img src="./assets/images/brand-awareness.png" alt="" class="benefit-img">
             <p2>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p2>
         </main>
         <main>
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"class ="benefit-img">
+            <img src="./assets/images/cost-management.png" alt="" class ="benefit-img">
             <p2>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p2>
         </main>
     </aside>
 
-    <!--footer-->
+    <!--Footer - Note: in the client sample from Nov-22-2020 the footer is not present; it is invisible from css file class=.footer with a display of none.-->
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
