@@ -1,11 +1,11 @@
-/*Global Style*/
+
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: white;
+    
 }
 
 p {
@@ -16,18 +16,50 @@ p {
     font-size: 16px;
     width: 75%;
 }
+h2{
+    font-size: 36px;
+    padding: 20px;
+}
 
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-.float-left-special{
+}
+section{
     margin-right: 10px;
     display: inline-block;
     width: 75%;
 }
 
+article{
+    font-size: 20px;
+    width: 67%;
+    display: inline-block:
+
+}
+div{
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: #0072bb;
+    color: #ffffff;
+    margin-left: 20px;
+}
+img{
+    max-height: 200px;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 25px;
+}
+
+.img-right{
+    max-height: 200px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 25px;
+
+
+}
 .float-right-special{
     margin-left: 25px;
     display: inline-block;
@@ -43,20 +75,47 @@ body {
     
     
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+li{
+    float:left;
+    padding: 10px;
 }
 
-.header {
-    padding: 20px;
+li a{
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: inline-flex;
+    width: 100%;
+    max-height: fit-content;
+    padding-left: 10px;
+}
+.seo {
+        color: #d9dcd6;
+}
+nav {
+    float: right;
+    position: -20px;
+    display: inline-flex;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    padding-left: 200px;
 }
 
 .footer {
+    display: none;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,19 +126,8 @@ body {
     font-size: 20px;
 }
 
-/*Specific Layout - header footer image and content*/
 
-.leftcontent{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-    display: inline-flex;
-    margin-left: 20px;
-}
-.img{
-    max-height: 200px;
+   
 }
 .header h1 {
     display: inline-block;
@@ -97,10 +145,6 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -115,7 +159,7 @@ body {
     height: 100%;
     background-color: #2589bd;
 }
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -124,7 +168,7 @@ body {
     background-position: center;
 }
 
-.benefit-lead {
+.benefit-format {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -154,7 +198,7 @@ body {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -172,34 +216,8 @@ body {
     max-width: 150px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
 .special {
     margin-bottom: 20px;
     font-size: 36px;
-    width: 75%;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    
 }
