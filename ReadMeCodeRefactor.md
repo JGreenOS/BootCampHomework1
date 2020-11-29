@@ -1,5 +1,12 @@
 This project is a homework assignment with the objective of learning how to do code refactoring from a previously published website.
 
+Description of work:
+1. Using an image of a mock-up web page, assets and source code, I refactored the source to change the css from repetitive elements to a cleaner, more concise css file with semantic html.
+2. Evaluate and remediate all accessibility issues, especially with alt-image tags.
+
+
+
+
 
 
 Title (A Title Image too if possible…Edit them on canva.com if you are not a graphic designer.)
@@ -36,6 +43,3 @@ THEN I find a concise, descriptive title
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
