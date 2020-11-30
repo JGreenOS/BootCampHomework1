@@ -13,8 +13,9 @@ Sample of project is located at: https://jgreenos.github.io/BootCampHomework1/De
 
 ## Notes:
 In this project, the use of a responsive framework is not allowed to help developers understand, demonstrate the relationship and use of html/css. Using a responsive framework will provide the end user with a much more robust experience.
+
 If this project extends beyond a single page, a site index xml file is recommended.
-After homework was completed, the working repo was changed to be more descriptive.  Commits completed during the development of the project 
+
 
 ## User Story:
 A marketing agency, with experience in Search Engine Optimization (SEO), needed their site to respond to site crawlers.
